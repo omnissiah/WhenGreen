@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:padding="8dp"
+    android:background="@drawable/custom_list_item_shape"
+    android:animateLayoutChanges="true">
+    <!--android:orientation="vertical"-->
+
+
+    <TextView
+        android:layout_alignParentLeft="true"
+        android:layout_weight="1"
+        android:textSize="@dimen/abc_text_size_large_material"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Light Name"
+        android:textStyle="bold"
+        android:id="@+id/light_list_item_nameTextView"
+        android:paddingRight="4dp"
+        android:textColor="#f9f93d"
+        android:paddingLeft="4dp"/>
+
+
+    <ImageView
+        android:layout_width="55dp"
+        android:layout_height="36dp"
+        android:src="@android:drawable/presence_online"
+        android:id="@+id/light_list_item_button_green"
+        android:padding="4dp"
+        android:adjustViewBounds="true"
+        android:layout_gravity="center_vertical" />
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:src="@android:drawable/ic_menu_delete"
+        android:id="@+id/light_list_item_delete"
+        android:padding="4dp"
+        android:layout_gravity="center_vertical" />
+
+</LinearLayout>

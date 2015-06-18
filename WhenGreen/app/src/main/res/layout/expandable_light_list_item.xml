@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="130dp"
+    android:orientation="horizontal"
+    android:animateLayoutChanges="true"
+    android:weightSum="1">
+
+    <ImageButton
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:src="@android:drawable/ic_menu_save"
+        android:id="@+id/light_list_item_button_save"
+        android:padding="4dp"
+        android:layout_marginTop="22dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:textSize="22sp"
+        android:layout_width="268dp"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:hint="...Light Name Here..."
+        android:background="@android:color/holo_orange_light"
+        android:id="@+id/light_list_item_textview_light_name"
+        android:paddingRight="4dp"
+        android:paddingLeft="4dp"
+        android:editable="true"
+        android:layout_alignTop="@+id/light_list_item_button_save"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Timer"
+        android:id="@+id/light_list_item_textview_next_green"
+        android:paddingRight="4dp"
+        android:paddingLeft="4dp"
+        android:gravity="center_horizontal"
+        android:layout_below="@+id/light_list_item_textview_light_name"
+        android:layout_toRightOf="@+id/light_list_item_button_save"
+        android:layout_toEndOf="@+id/light_list_item_button_save"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp" />
+
+</RelativeLayout>

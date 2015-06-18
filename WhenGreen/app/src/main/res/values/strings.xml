@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">WhenGreen</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_individual_light">IndividualLightActivity</string>
+
+    <string name="hello_world">Hello world!</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_light_expandable_list">LightExpandableListActivity</string>
+    <string name="title_activity_splash">SplashActivity</string>
+</resources>
